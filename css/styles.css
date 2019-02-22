@@ -1,0 +1,42 @@
+html{
+  background-image: url(../images/for java.jpeg);
+  }
+body{
+   background: black;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 12em;
+}
+.inner {
+  text-align: center;
+  color: whitesmoke;
+  overflow: hidden;
+  padding: 0.4em;
+}
+.inner h1 {
+  font-size: 3.5em;
+  animation: slide_up 1.4s ease;
+}
+.inner p {
+  font-size: 1.5em;
+  animation: slide_up 2.1s ease;
+}
+.inner button {
+  margin-top: 2em;
+  padding: 1em 2.5em;
+  font-size: 1em;
+  border-radius: 4em;
+  border:none;
+  background: #D1913C;
+  animation: slide_up 2.4s ease;
+}
+@keyframes slide_up {
+  0%{
+    transform: translatey(250px);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
