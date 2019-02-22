@@ -41,7 +41,7 @@
     transform: translateY(0%);
   }
 }
-h2 {
+.quiz {
   text-align: center;
   color: whitesmoke;
 }
