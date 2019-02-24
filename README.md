@@ -6,7 +6,7 @@ Miriam Hazel Oduor.
 This application allows users to answer javascript questions with given choices.The user is
 able to know how they performed by clicking the submit button which will present their percentage score
 between zero(0%) to (100%)
-## LIVE LINK
+## GITHUB LIVE LINK
 https://hazel44.github.io/javascrip-quiz-board/
 ## INSTALLATION REQUIREMENTS
 * A laptop or phone

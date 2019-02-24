@@ -30,7 +30,7 @@
     background: #F15F79;
     animation: slide_up 2.4s ease;
   }
-  
+
   @keyframes slide_up {
   0%{
     transform: translatey(250px);
