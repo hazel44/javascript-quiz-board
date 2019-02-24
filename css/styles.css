@@ -30,9 +30,7 @@
     background: #F15F79;
     animation: slide_up 2.4s ease;
   }
-  button {
-    color: whitesmoke;
-  }
+  
   @keyframes slide_up {
   0%{
     transform: translatey(250px);
@@ -56,6 +54,7 @@
     float: right;
     background: black;
     font-size: 1.2em;
+    color: black;
     border: none
   }
   .form-group li {
