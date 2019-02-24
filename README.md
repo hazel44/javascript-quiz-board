@@ -7,7 +7,7 @@ This application allows users to answer javascript questions with given choices.
 able to know how they performed by clicking the submit button which will present their percentage score
 between zero(0%) to (100%)
 ## GITHUB LIVE LINK
-https://hazel44.github.io/javascript-quiz-board/
+  https://hazel44.github.io/javascript-quiz-board/
 ## INSTALLATION REQUIREMENTS
 * A laptop or phone
 * Internet access
