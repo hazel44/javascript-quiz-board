@@ -14,8 +14,18 @@ https://hazel44.github.io/javascrip-quiz-board/
 * Github to clone https://hazel44.github.io/javascrip-quiz-board/
 * Atom
 ## BDD
-input,
-
+* Input: The user does not answer any question.
+* Output:NaN.
+* Input: User answers all questions but fails all of them.
+* Output: Retake the test.
+* Input: User answers less that five questions.
+* Output: Please answer all the questions.
+* Input: User scores less than 10 points.
+* Output: Poorly done.Retake the test.
+* Input: User sores more than 10 points but less than 25 points.
+* Output: Fairly passed.
+* Input: User scores all questions correct.
+* Output: Congratulations. You have passed the test.
 ## TECHNOLOGIES USED
 * HTML
 * CSS
