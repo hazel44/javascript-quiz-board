@@ -52,3 +52,12 @@
     font-size: 2em;
     color: whitesmoke;
   }
+  .back {
+    float: right;
+    background: black;
+    font-size: 1.2em;
+    border: none
+  }
+  .form-group li {
+    color: black;
+  }
