@@ -14,6 +14,7 @@ https://hazel44.github.io/javascrip-quiz-board/
 * Github to clone https://hazel44.github.io/javascrip-quiz-board/
 * Atom
 ## BDD
+input,
 
 ## TECHNOLOGIES USED
 * HTML
