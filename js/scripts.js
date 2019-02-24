@@ -4,3 +4,5 @@ var questions=[
   ["Q3:What is a CDN?","A function.","A network of servers that store content and deliver it to users.","  A container."," All the above.","B"],
   ["Q4:What does a DOM do?","It adds color to html file.","It defines the logical structure of documents and the way a document is accessed and manipulated.","It links jquery to html file","It makes buttons work.","B"]
 ];
+$(document).ready(function() {
+}
