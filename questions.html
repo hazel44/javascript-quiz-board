@@ -6,6 +6,13 @@
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
      <script src="js/scripts.js"></script>
    <title>JAVASCRIPT QUIZ BOARD</title>
+   <style>
+ body {
+   background-image: url("images/bluemetal.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ </style>
 </head>
 <body background="images/forjava1.jpeg">
   <div class="container-fluid">
@@ -23,16 +30,16 @@
         <li class="panel-title">How many columns can fit in a row?(5mks)</li>
          <div class="radio">
           <label>
-           <input type="radio" name="answer1" id="Q1" value="5">12
+           <input type="radio" name="answer1"  value="5">12
             </label><br>
              <label>
-              <input type="radio" name="answer1" id="Q1" value="0">18
+              <input type="radio" name="answer1"  value="0">18
                </label><br>
                <label>
-              <input type="radio" name="answer1" id="Q1" value="0">1
+              <input type="radio" name="answer1" value="0">1
              </label><br>
             <label>
-           <input type="radio" name="answer1" id="Q1" value="0">None of the above
+           <input type="radio" name="answer1" value="0">None of the above
           </label><br>
          </div>
        </div>
@@ -42,19 +49,19 @@
    <li class="panel-title">How do we ensure our own stylesheet takes precedence over Bootstrap's?(5mks)</li>
    <div class="radio">
     <label>
-     <input type="radio" name="answer2" id="Q2" value="0">
+     <input type="radio" name="answer2"  value="0">
      By removing Bootstrap.
       </label><br>
        <label>
-        <input type="radio" name="answer2" id="Q2" value="0">
+        <input type="radio" name="answer2"  value="0">
         By linking bootsrap stylesheet after your own custom stylesheets
          </label><br>
           <label>
-           <input type="radio" name="answer2" id="Q2" value="5">
+           <input type="radio" name="answer2"  value="5">
            By linking your own custom stylesheets after the Bootstrap stylesheet.
             </label><br>
             <label>
-           <input type="radio" name="answer2" id="Q2" value="0">
+           <input type="radio" name="answer2"  value="0">
            By removing your own custom stylesheets
          </label><br>
       </div>
@@ -65,19 +72,19 @@
 <li class="panel-title">What is a CDN?(5mks)</li>
  <div class="radio">
    <label>
-      <input type="radio" name="answer3" id="Q3" value="0">
+      <input type="radio" name="answer3"  value="0">
         A function.
         </label><br>
          <label>
-          <input type="radio" name="answer3" id="Q3" value="5">
+          <input type="radio" name="answer3"  value="5">
            A network of servers that store content and deliver it to users.
             </label><br>
              <label>
-              <input type="radio" name="answer3" id="Q3" value="0">
+              <input type="radio" name="answer3"  value="0">
                A container.
                </label><br>
              <label>
-           <input type="radio" name="answer3" id="Q3" value="0">
+           <input type="radio" name="answer3"  value="0">
            All the above.
         </label><br>
       </div>
@@ -88,19 +95,19 @@
 <li class="panel-title">What does a DOM do?(5mks)</li>
   <div class="radio">
     <label>
-      <input type="radio" name="answer4" id="Q4" value="0">
+      <input type="radio" name="answer4"  value="0">
         It adds color to html file.
          </label><br>
           <label>
-           <input type="radio" name="answer4" id="Q4" value="5">
+           <input type="radio" name="answer4"  value="5">
             It defines the logical structure of documents and the way a document is accessed and manipulated.
             </label><br>
              <label>
-            <input type="radio" name="answer4" id="Q4" value="0">
+            <input type="radio" name="answer4"  value="0">
             It links jquery to html file
            </label><br>
          <label>
-       <input type="radio" name="answer4" id="Q4" value="0">
+       <input type="radio" name="answer4"  value="0">
       It makes buttons work.
     </label><br>
    </div>
@@ -111,36 +118,34 @@
   <li class="panel-title">What is a function?(5mks)</li>
    <div class="radio">
     <label>
-     <input type="radio" name="answer5" id="Q5" value="5">
+     <input type="radio" name="answer5"  value="5">
       Its a named section of a program that performs a specific task.
        </label><br>
         <label>
-         <input type="radio" name="answer5" id="Q5" value="0">
+         <input type="radio" name="answer5"  value="0">
           A programming language.
           </label><br>
          <label>
-        <input type="radio" name="answer5" id="Q5" value="0">
+        <input type="radio" name="answer5"  value="0">
        It is a stylesheet.
      </label><br>
    <label>
- <input type="radio" name="answer5" id="Q5" value="0">
+ <input type="radio" name="answer5"  value="0">
  It is a variable.
 </label><br>
 </ol>
-</div>
+ </div>
   </div>
    </div>
- </div>
-</div>
-    <div class="submit">
-    <button type="submit" class="btn btn">submit</button>
     </div>
-   <div class="back">
-  <a href="index.html">
- <button class="btn">Back</button>
-</a>
-</div>
+     </div>
+      <div class="submit">
+     <button type="submit" class="btn btn">submit</button>
+   </div>
   </form>
- </div>
-</body>
+  <div id="results">
+
+  </div>
+  </div>
+ </body>
 </html>
