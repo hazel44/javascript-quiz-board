@@ -1,7 +1,4 @@
 
-  body{
-     background: #136a8a;
-  }
   .container{
     display: flex;
     justify-content: center;
@@ -59,6 +56,7 @@
   }
   .form-group li {
     color: black;
+    font-size: 1em;
   }
   .radio{
     font-size: 0.8em;
