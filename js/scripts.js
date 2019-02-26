@@ -3,7 +3,7 @@ var add = function(answer1, answer2, answer3, answer4,  answer5){
 }
 
  $(document).ready(function(){
-  $("form .form-group").submit(function(event){
+  $("button.btn").click(function(event){
   event.preventDefault();
 
   var answer1 = parseInt($("input:radio[name = answer1]:checked").val());
@@ -13,10 +13,10 @@ var add = function(answer1, answer2, answer3, answer4,  answer5){
   var answer5 = parseInt($("input:radio[name = answer5]:checked").val());
 
   var total = answer1 + answer2 + answer3 + answer4 + answer5;
-  $("form").hide();
-  $("button").hide();
-  $("#results").text(" Your score is " + total + " out of 25 ")
-  document.getElementById("results").innerHTML="Your score is" + total +"out of 25";
+
+  $(".form-group").hide();
+  $("#results").append(" Your score is " + total + " out of 25 ");
+
 
 });
 });
